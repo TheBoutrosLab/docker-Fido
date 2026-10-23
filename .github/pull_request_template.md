@@ -4,33 +4,6 @@
 
 ### Closes #...
 
-## Testing Results
-
-### Docker Image Testing
-
-- [ ] I have tested the Docker image with the `docker run` command as described below.
-
-#### Test the Docker image with at least one sample. Verify the new Docker image works using:
-
-```docker run -u $(id -u):$(id -g) –w <working-directory> -v <directory-you-want-to-mount>:<how-you-want-to-mount-it-within-the-docker> --rm <docker-image-name> <command-to-the-docker-with-all-parameters>```
-
-#### My command:
-
-```Provide the command you ran here```
-
-### Test Cases
-
-- Case 1
-    - sample:    <!-- e.g. A-mini S2.T-1, A-mini S2.T-n1 -->
-    - input csv: <!-- path/to/input.csv -->
-    - config:    <!-- path/to/xxx.config -->
-    - output:    <!-- path/to/output -->
-- Case 2
-    - sample:    <!-- e.g. A-mini S2.T-1, A-mini S2.T-n1 -->
-    - input csv: <!-- path/to/input.csv -->
-    - config:    <!-- path/to/xxx.config -->
-    - output:    <!-- path/to/output -->
-
 # Checklist
 <!--- Please read each of the following items and confirm by replacing the [ ] with a [X] --->
 

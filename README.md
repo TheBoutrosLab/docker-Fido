@@ -1,53 +1,45 @@
-# docker-tool_name
-Template Repository for the Boutros Lab Dockerfiles based on mambaforge base image.
+# docker-Fido
 
-The base image is pulled from https://hub.docker.com/r/condaforge/mambaforge
+Docker image for [Fido](https://noble.gs.washington.edu/proj/fido/), a protein inference tool for MS/MS proteomics.
+
+This image is maintained by the Boutros Lab and installs Fido in a dedicated Miniforge/Conda environment on an Ubuntu runtime image.
 
 # Documentation
-Docker introduction [here](https://uclahs-cds.atlassian.net/wiki/spaces/BOUTROSLAB/pages/3190419/Docker+Introduction)
 
-Dockerfile Best Practices [here](https://uclahs-cds.atlassian.net/wiki/spaces/BOUTROSLAB/pages/3189770/Dockerfile+Best+Practices)
-
-Docker image versioning standard [here](https://uclahs-cds.atlassian.net/wiki/spaces/BOUTROSLAB/pages/3188472/Docker+image+versioning+standardization)
-
+- [Fido guide: command-line usage, input format, and output format](https://noble.gs.washington.edu/proj/fido/)
+- [Bioconda package and installation details](https://bioconda.github.io/recipes/fido/README.html)
 
 # Version
+
 | Tool | Version |
 |------|---------|
-|tool_name| X.X.X|
-|tool_name_2|X.X.X|
+| Fido | 1.0 |
+| Miniforge | 26.1.1-2 |
+| Ubuntu | 24.04 |
 
----
+# Discussions
 
-## Discussions
+- [Issue tracker](https://github.com/TheBoutrosLab/docker-Fido/issues) for bugs and enhancement ideas.
+- [Discussions](https://github.com/TheBoutrosLab/docker-Fido/discussions) for questions.
+- [Pull requests](https://github.com/TheBoutrosLab/docker-Fido/pulls) for contributions.
 
-- [Issue tracker](<link-to-issues-page>) to report errors and enhancement ideas.
-- Discussions can take place in [docker-<tool> Discussions](<link-to-discussions>)
-- [docker-<tool> pull requests](<link-to-pull-requests>) are also open for discussion
+# Contributors
 
----
+Please see the list of [contributors](https://github.com/TheBoutrosLab/docker-Fido/graphs/contributors) on GitHub.
 
-## Contributors
+# References
 
-Please see list of [Contributors](<link-to-contributors-insights>) at GitHub.
+1. Serang O, MacCoss MJ, Noble WS. Efficient marginalization to compute protein posterior probabilities from shotgun mass spectrometry data. *Journal of Proteome Research*. 2010;9(10):5346–5357. [doi:10.1021/pr100594k](https://doi.org/10.1021/pr100594k).
 
----
+# License
 
-## References
+Author: Chenghao Zhu
 
-1. Tool specific references can be listed here
+docker-Fido is licensed under the GNU General Public License version 2. See [LICENSE](LICENSE) for the terms of the GNU GPL license. Fido retains its upstream license.
 
----
+docker-Fido provides a containerized Fido runtime for protein inference from MS/MS proteomics data.
 
-## License
-
-Author: Name1, Name2
-
-[docker repo name] is licensed under the GNU General Public License version 2. See the file LICENSE for the terms of the GNU GPL license.
-
-<one line to give the program's name and a brief idea of what it does.>
-
-Copyright (C) 2026 Sanford Burnham Prebys Medical Discovery Institute ("Boutros Lab")
+Copyright (C) 2026 Sanford Burnham Prebys Medical Discovery Institute ("Boutros Lab") All rights reserved.
 
 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
 
